@@ -218,7 +218,3 @@ docker compose up -d --build
 - [ ] Testes de integração com Testcontainers
 
 ---
-
-## 📄 Licença
-
-MIT
