@@ -1,0 +1,23 @@
+.card {
+  background:var(--bg-surface); border:1px solid var(--border);
+  border-radius:var(--radius-lg); padding:20px 24px;
+  position:relative; overflow:hidden;
+  animation:fadeUp .4s ease both; transition:box-shadow .2s;
+}
+.card:hover { box-shadow:0 0 0 1px var(--border-bright); }
+.label { font-size:10px; letter-spacing:.12em; color:var(--text-muted); text-transform:uppercase; margin-bottom:10px; }
+.value { font-family:var(--font-display); font-size:34px; font-weight:800; line-height:1; }
+.sub { font-size:11px; color:var(--text-muted); margin-top:6px; }
+.corner { position:absolute; top:0; right:0; width:56px; height:56px; border-radius:0 var(--radius-lg) 0 56px; opacity:.08; }
+
+.cyan   .value,.cyan   .corner { color:var(--cyan);   background:var(--cyan);   }
+.green  .value,.green  .corner { color:var(--green);  background:var(--green);  }
+.yellow .value,.yellow .corner { color:var(--yellow); background:var(--yellow); }
+.red    .value,.red    .corner { color:var(--red);    background:var(--red);    }
+.purple .value,.purple .corner { color:var(--purple); background:var(--purple); }
+
+.cyan   { border-color:rgba(0,212,255,.2); }
+.green  { border-color:rgba(0,255,157,.2); }
+.yellow { border-color:rgba(255,217,61,.2); }
+.red    { border-color:rgba(255,77,109,.2); }
+.purple { border-color:rgba(168,85,247,.2); }
